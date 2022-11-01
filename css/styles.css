@@ -1,0 +1,253 @@
+/* основний колір тексту #212121 */
+/* другорядний колір тексту #757575 */
+/* чорний #000000 */
+/* білий #FFFFFF */
+/* акцент #2196F3  */
+/* колір фону основний #F5F5F5 */
+/* другорядний фон #2F303A */
+/* третьорядний фон #F5F4FA */
+
+:root {
+    --title-text-color: #212121;
+    --primary-text-color: #757575;
+    --white: #FFFFFF;
+    --black-color: #000000;
+    --secondary-background-color: #F5F5F5;
+    --third-background-color: #2F303A;
+    --accent-color: #2196F3;
+
+}
+
+body {
+    background-color: var(--white);
+    color: var(--title-text-color);
+    font-size: 14px;
+    font-family: Roboto, sans-serif;
+    letter-spacing: 0.03em;  
+}
+a {
+     text-decoration: none;
+    }
+    
+ul {
+    list-style: none; 
+}
+
+/* logo */
+.logo {
+    color: var(--black-color);
+    font-family: Raleway, sans-serif;
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 1.19;
+        
+}
+
+.web {
+    color: var(--accent-color);
+}
+/* site-nav */
+
+.site-nav a{
+    color: var(--title-text-color);
+        font-weight: 500;
+        line-height: 1.14;
+        letter-spacing: 0.02em;
+}
+
+.site-nav a:hover,
+.site-nav a:focus {
+    color: var(--accent-color);
+}
+
+.site-nav .link.current {
+    color: var(--accent-color);
+}
+/* portfolio */
+.site-nav .portfolio {
+    color: var(--title-text-color);
+}
+
+.site-nav .portfolio:hover,
+.site-nav .portfolio:focus {
+    color: var(--accent-color);
+}
+
+.site-nav .portfolio.current {
+    color: var(--accent-color);
+}
+/* contacts */
+
+.contacts {
+    font-weight: 500;
+        line-height: 1.14;
+        letter-spacing: 0.02em;
+}
+
+.contacts .mail {
+    color: var(--primary-text-color);
+
+}
+
+.contacts .mail:hover,
+.contacts .mail:focus {
+    color: var(--accent-color);
+}
+
+.contacts .tel {
+    color: var(--primary-text-color);
+}
+
+.contacts .tel:hover,
+.contacts .tel:focus {
+    color: var(--accent-color);
+}
+
+/* hero */
+.hero {
+    background-color: var(--third-background-color);
+    color: var(--white)
+}
+
+.hero-title {
+        font-weight: 900;
+        font-size: 44px;
+        line-height: 1.36;
+        text-align: center;
+        letter-spacing: 0.06em;   
+}
+
+
+/* особливості */
+
+.special-title {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 1.14;
+}
+.special-text {
+    color: var(--primary-text-color);
+    font-weight: 400;
+    line-height: 1.71;
+}
+
+.work-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+}
+
+/* team */
+.team {
+    background-color: #F5F4FA;
+}
+
+.team-title {
+    background-color: #F5F4FA;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+}
+
+.team-name {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.18;
+}
+.team-position {
+    color: var(--primary-text-color);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.18;
+}
+
+/* footer */
+
+.adress {
+    background-color: #2F303A;
+    font-weight: 400;
+    line-height: 1.71;
+}
+
+.adress .logo {
+    color:  var(--white);
+}
+
+.maps {
+    font-style: normal;
+    color: var(--white);
+}
+
+.maps:hover,
+.maps:focus {
+    color: var(--accent-color);
+}
+.link {
+    font-style: normal;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.link:hover,
+.link:focus {
+    color: var(--accent-color);
+}
+
+/* project */
+
+.project-title {
+    color: var(--title-text-color);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1;
+    letter-spacing: 0.06em;
+}
+
+.project-exsample {
+    color: var(--primary-text-color);
+    font-size: 16px;
+    line-height: 1.88;
+}
+
+/* button */
+.hero-button {
+    font-family: inherit;
+    color: var(--white-color);
+    background-color: var(--accent-color);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.87;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    cursor: pointer;
+}
+
+.hero-button:hover,
+.hero-button:focus {
+    background-color: #188CE8;
+}
+
+
+.project {
+    display: flex;
+}
+.button button{
+    font-family: inherit;
+    background-color: #F5F4FA;
+    color: var(--title-text-color)
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.6;
+    text-align: center;
+    cursor: pointer;
+}
+
+.button button:hover,
+.button button:focus {
+    background-color: var(--accent-color);
+    color: var(--white);
+}

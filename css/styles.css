@@ -82,6 +82,9 @@ ul {
     font-weight: 500;
         line-height: 1.14;
         letter-spacing: 0.02em;
+        margin: 0;
+        padding: 0;
+
 }
 
 .contacts .mail {
@@ -103,32 +106,58 @@ ul {
     color: var(--accent-color);
 }
 
+/* container */
+.container {
+    width: 1170px;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    
+}
 /* hero */
 .hero {
     background-color: var(--third-background-color);
-    color: var(--white)
+    color: var(--white);
+
 }
 
 .hero-title {
+        margin-top: 0;
+        margin-bottom: 30px;
         font-weight: 900;
         font-size: 44px;
         line-height: 1.36;
         text-align: center;
         letter-spacing: 0.06em;   
 }
-
+.list {
+    margin: 0;
+    padding: 0;
+}
 
 /* особливості */
-
+.special-list {
+    margin: 0;
+    padding: 94px 0;
+}
 .special-title {
+    margin-top: 0;
     font-size: 14px;
     font-weight: 700;
     line-height: 1.14;
+    margin-bottom: 10px;
+   
 }
 .special-text {
     color: var(--primary-text-color);
     font-weight: 400;
     line-height: 1.71;
+    margin: 0;
+    
+}
+
+.work {
+    padding-bottom: 94px;
 }
 
 .work-title {
@@ -136,11 +165,19 @@ ul {
     font-size: 36px;
     line-height: 1.16;
     text-align: center;
+    margin-top: 0;
+    margin-bottom: 50px;
 }
 
 /* team */
 .team {
     background-color: #F5F4FA;
+    padding: 94px 0;
+}
+
+.team-list{
+    margin: 0;
+    padding: 0;
 }
 
 .team-title {
@@ -149,6 +186,8 @@ ul {
     font-size: 36px;
     line-height: 1.16;
     text-align: center;
+    margin-top: 0;
+    margin-bottom: 50px;
 }
 
 .team-name {
@@ -169,6 +208,11 @@ ul {
     background-color: #2F303A;
     font-weight: 400;
     line-height: 1.71;
+}
+
+.adress-list {
+    padding: 0;
+    margin: 0;
 }
 
 .adress .logo {
@@ -193,6 +237,8 @@ ul {
 .link:focus {
     color: var(--accent-color);
 }
+
+
 
 /* project */
 
@@ -223,6 +269,7 @@ ul {
     text-align: center;
     letter-spacing: 0.06em;
     cursor: pointer;
+    margin-bottom: 0;
 }
 
 .hero-button:hover,

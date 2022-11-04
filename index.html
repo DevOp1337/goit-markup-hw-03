@@ -16,20 +16,24 @@
 
     <!--Шапка сайту-->
     <header>
-        <nav>
+        <div class="container">
+            <nav>
             <a href="./index.html" lang="en" class="logo"><span class="web">Web</span>Studio </a>
-
-            <ul class="site-nav">
-                <li> <a  class="link current" href="">Студія</a> </li>
-                <li> <a class="portfolio" href="./portfolio.html">Портфоліо</a> </li>
+    
+            <ul class="site-nav list">
+                <li> <a class="link" href="./index.html">Студія</a> </li>
+                <li> <a class="portfolio current" href="./portfolio.html">Портфоліо</a> </li>
                 <li> <a href="">Контакти</a> </li>
             </ul>
         </nav>
-
-        <ul class="contacts">
-            <li> <a  class="mail" href="mailto:info@devstudio.com">info@devstudio.com</a> </li>
-            <li> <a  class="tel" href="tel:+380961111111">+38 096 111 11 11</a> </li>
+        
+    
+        <!-- <div class="container"> -->
+            <ul class="contacts list">
+            <li> <a class="mail" href="mailto:info@devstudio.com">info@devstudio.com</a> </li>
+            <li> <a class="tel" href="tel:+380961111111">+38 096 111 11 11</a> </li>
         </ul>
+    </div>
     </header>
     <main>
         <!--Герой-->
@@ -39,39 +43,44 @@
         </section>
         <!--Особливості-->
         <section class="special">
-         <h2 hidden>Особливості</h2>
-            <ul>
-                <li>
-                    <h3 class="special-title" >УВАГА ДО ДЕТАЛЕЙ</h3>
-                    <p class="special-text">Ідейні міркування, і навіть початок повсякденної роботи з формування позиції.</p>
-             </li>
-             <li>
-                    <h3 class="special-title" >ПУНКТУАЛЬНІСТЬ</h3>
-                    <p class="special-text">Завдання організації, особливо рамки і місце навчання кадрів тягне у себе.</p>
-                </li>
-                <li>
-                    <h3 class="special-title" >ПЛАНУВАННЯ</h3>
-                   <p class="special-text">Так само консультація з широким активом значною мірою зумовлює.</p>
-                </li>
-                <li>
-                  <h3 class="special-title" >СУЧАСНІ ТЕХНОЛОГІЇ</h3>
-                  <p class="special-text">Значимість цих проблем настільки очевидна, що реалізація планових завдань.</p>
-                </li>
-            </ul>
+        <div class="container">
+            <h2 hidden>Особливості</h2>
+                <ul class="special-list">
+                   <li>
+                       <h3 class="special-title" >УВАГА ДО ДЕТАЛЕЙ</h3>
+                       <p class="special-text">Ідейні міркування, і навіть початок повсякденної роботи з формування позиції.</p>
+                    </li>
+                    <li>
+                       <h3 class="special-title" >ПУНКТУАЛЬНІСТЬ</h3>
+                       <p class="special-text">Завдання організації, особливо рамки і місце навчання кадрів тягне у себе.</p>
+                    </li>
+                    <li>
+                       <h3 class="special-title" >ПЛАНУВАННЯ</h3>
+                      <p class="special-text">Так само консультація з широким активом значною мірою зумовлює.</p>
+                    </li>
+                    <li>
+                     <h3 class="special-title" >СУЧАСНІ ТЕХНОЛОГІЇ</h3>
+                     <p class="special-text">Значимість цих проблем настільки очевидна, що реалізація планових завдань.</p>
+                    </li>
+                </ul>
+        </div>
         </section>
-       <!--Чим ми займаємося-->
-        <section class="work" >
-          <h2 class="work-title" >Чим ми займаємося</h2>
-            <ul>
-                <li><img src="./images/img1.jpg" width="370" alt="Розробка десктопних додатків"></li>
-                <li><img src="./images/img2.jpg" width="370" alt="Розробка мобільних додатків"></li>
-                <li><img src="./images/img3.jpg" width="370" alt="Веб дизайн"></li>
-            </ul>
-        </section>
+          <!--Чим ми займаємося-->
+           <section class="work" >
+            <div class="container">
+             <h2 class="work-title" >Чим ми займаємося</h2>
+               <ul>
+                   <li><img src="./images/img1.jpg" width="370" alt="Розробка десктопних додатків"></li>
+                   <li><img src="./images/img2.jpg" width="370" alt="Розробка мобільних додатків"></li>
+                   <li><img src="./images/img3.jpg" width="370" alt="Веб дизайн"></li>
+               </ul>
+            </div>
+           </section>
         <!--Команда-->
         <section class="team">
+            <div class="container">
             <h2 class="team-title" >Наша команда</h2>
-            <ul>
+            <ul class="team-list">
                 <li>
                     <img src="./images/photo1.jpg" width="270" alt="Фото Ігора">
                     <h3 class="team-name" >Ігор Дем'яненко</h3>
@@ -93,20 +102,23 @@
                     <p class="team-position" lang="en">UI Designer</p>
                 </li>
             </ul>
+            </div>
         </section>
     </main>
 
         <!--Футер-->
         <footer class="adress">
-            <a href="./index.html" lang="en" class="logo"><span class="web">Web</span>Studio </a>
+            <div class="container">
+                <a href="./index.html" lang="en" class="logo"><span class="web">Web</span>Studio </a>
 
-            <address>
-                <ul>
-                    <li> <a class="maps" href="https://goo.gl/maps/tU6oUWFSM4fqJEDF9"> м. Київ, пр-т Лесі Українки, 26 </a> </li>
-                    <li> <a class="link" href="mailto:info@devstudio.com">info@devstudio.com</a> </li>
-                    <li> <a class="link" href="tel:+380961111111">+38 096 111 11 11</a> </li>
-                </ul>
-            </address>
+                <address>
+                    <ul class="adress-list">
+                        <li> <a class="maps" href="https://goo.gl/maps/tU6oUWFSM4fqJEDF9"> м. Київ, пр-т Лесі Українки, 26 </a> </li>
+                        <li> <a class="link" href="mailto:info@devstudio.com">info@devstudio.com</a> </li>
+                        <li> <a class="link" href="tel:+380961111111">+38 096 111 11 11</a> </li>
+                    </ul>
+                </address>
+            </div>
         </footer>
 </body>
 

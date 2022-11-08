@@ -163,6 +163,7 @@ ul {
 
 /* hero */
 .hero {
+
     padding-top: 200px;
     padding-bottom: 200px;
 
@@ -418,8 +419,14 @@ padding-bottom: 30px;
 
 /* button */
 .hero-button {
-    margin-bottom: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 32px;
+    padding-right: 32px;
+    margin: 0;
     margin: auto;
+    
+    
     font-family: inherit;
     color: var(--white-color);
     background-color: var(--accent-color);

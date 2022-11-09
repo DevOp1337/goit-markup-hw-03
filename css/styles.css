@@ -41,6 +41,17 @@ a {
 ul {
     list-style: none; 
 }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin-top: 0;
+}
+
 /* утіліти */
 
 .head {
@@ -52,6 +63,8 @@ ul {
 .list {
     margin: 0;
     padding: 0;
+
+    list-style: none;
 }
 
 .main-nav {
@@ -175,8 +188,7 @@ ul {
 .hero-title {
         margin-top: 0;
         margin-bottom: 30px;
-        padding-left: 452px;
-        padding-right: 452px;
+        
 
         font-weight: 900;
         font-size: 44px;
@@ -199,6 +211,10 @@ ul {
     padding: 0;
 }
 
+.special-list .item{
+    weigth: 270px;
+}
+
 .special-list .item:not(:last-child) {
     margin-right: 30px;
 }
@@ -210,6 +226,9 @@ ul {
     font-size: 14px;
     font-weight: 700;
     line-height: 1.14;
+
+    text-transform: uppercase;
+    text-align: left;
 }
 
 .special-text {
@@ -218,6 +237,7 @@ ul {
     color: var(--primary-text-color);
     font-weight: 400;
     line-height: 1.71;
+    
 }
 
 .work {
@@ -278,10 +298,7 @@ margin-right: 30px;
     text-align: center;
 }
 
-.item-text {
-padding-top: 30px;
-padding-bottom: 30px;
-}
+
 
 .team-name {
     margin-top: 0;
@@ -342,6 +359,7 @@ padding-bottom: 30px;
 .link {
     font-style: normal;
     color: rgba(255, 255, 255, 0.6);
+    text-decoration: none;
 }
 
 
@@ -401,6 +419,18 @@ padding-bottom: 30px;
     margin-bottom: 30px;
 }
 
+.item-text {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 24px;
+    padding-right: 24px;
+
+    border-left: 1px solid #eeeeee;
+    border-right: 1px solid #eeeeee;
+    border-bottom: 1px solid #eeeeee;
+
+}
+
 .examples img {
     display: block;
 }
@@ -412,10 +442,7 @@ padding-bottom: 30px;
 .examples .item:nth-last-child(-n + 3){
     margin-bottom: 0;
 }
-.examples .item-text{
-    padding-top: 20px;
-    padding-bottom: 20px;
-}
+
 
 /* button */
 .hero-button {
@@ -440,6 +467,7 @@ padding-bottom: 30px;
     cursor: pointer;
 
     border-radius: 4px;
+    border: none;
 }
 
 .hero-button:hover,
@@ -457,6 +485,7 @@ padding-bottom: 30px;
     padding-left: 22px;
     padding-right: 22px;
     border-radius: 4px;
+    border: none;
 
     font-family: inherit;
     background-color: #F5F4FA;

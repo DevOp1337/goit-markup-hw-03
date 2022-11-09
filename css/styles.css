@@ -209,6 +209,7 @@ p {
     display: flex;
     margin: 0;
     padding: 0;
+    margin-right: -15px;
 }
 
 .special-list .item{
